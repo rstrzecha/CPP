@@ -31,10 +31,10 @@ int main()
             break;
         }
     }
-    if(wynik) cout << "Polindrom";
+    if(wynik) cout << "Palindrom";
     else
     {
-        cout << "Nie polindrom" << endl;
+        cout << "Nie palindrom" << endl;
         for (i = 0; i < k/2; i++)
             *(wsk_name+k-1-i) = *(wsk_name+i);
         cout << "Proponowana zmiana - " << wsk_name;
